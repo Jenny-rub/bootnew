@@ -51,4 +51,60 @@
     margin-right: auto;
   }
 
-  
+  /* toggle dark mode */
+
+  /* dark mode toggle*/
+
+.darkmode{
+	transition: 0.5s ease-in-out;
+}
+
+.darkmode navbar{
+    background-color: darkgray!important;
+}
+
+.darkmode #jumbo{
+    background-color: rgb(15, 13, 29);
+}
+
+.darkmode h1{
+    color: rgb(32, 28, 61);
+}
+.darkmode h2{
+    color:rgb(24, 20, 48);
+}
+
+.darkmode button{
+    background-color: firebrick;
+    color: white;
+}
+    
+.darkmode #but{
+    background-color: firebrick;
+}
+
+
+.darkmode #but2{
+    background-color: firebrick;
+}
+
+.darkmode #portfolio{
+    background-color: rgb(23, 19, 44)!important;
+}
+
+.darkmode #papa{
+    background-color: rgb(22, 19, 43)!important;
+}
+
+.darkmode .carousel-item p{
+    background-color: rgb(22, 19, 43)!important;
+}
+
+.darkmode body{
+    background-color: black!important;
+    color:white!important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
